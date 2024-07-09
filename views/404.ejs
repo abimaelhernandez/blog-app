@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <%- include('./partials/head') %>
+
+<body>
+    <%- include('./partials/nav.ejs') %>    
+
+    <header>
+        <h1> <%= title || '404 page'%>
+        </h1>
+    </header>
+
+    <main>
+        <p>Sorry, the page you are looking for does not exist. Please check the URL or return to the <a href="/">home page</a>.</p>
+    </main>
+
+    <%- include('./partials/footer.ejs') %>    
+
+</body>
+</html>
+
